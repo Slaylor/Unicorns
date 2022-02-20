@@ -1,0 +1,92 @@
+@media screen and (min-width: 1200px) {
+    /* Cacher le menu bruger */
+    .menu-mobile {
+        display: none;
+    }
+    /* Afficher le menu des liens hyepertexte */
+    .menu-desktop {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+    }
+
+    .menu-desktop li a {
+        text-decoration: none;
+        color: var(--black);
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    /**
+     * Header
+     */
+    header h1 {
+        font-size: 4rem;
+    }
+    
+    header p {
+        font-size: 1.4rem;
+    }
+
+    header img {
+        width: 40%;
+        margin: 150px auto;
+    }
+
+    /** 
+     * Card project
+     */
+    .card-project {
+        position: relative;
+    }
+
+    .card-project p {
+        font-size: 1.2rem;
+        position: absolute;
+        width: 25%;
+        bottom: 25px;
+        left: 10px;
+    }
+
+    .btn-light {
+        display: none;
+    }
+
+    /**
+     * Newsletter
+     */
+    .newsletter {
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 50px;
+    }
+
+    .newsletter h2 {
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+
+    .btn-dark {
+        display: inline; 
+    }
+
+    .newsletter img {
+        width: 50%;
+    }
+
+    /**
+     * Footer
+     */
+     footer {
+         display: flex;
+         justify-content: right;
+     }
+
+     footer a {
+         border: none;
+     }
+}
